@@ -1,0 +1,111 @@
+body{
+  background-color: #a9a9a987;
+  color: rgb(0.0.0);
+  font-family: Raleway;
+  text-align: justify;
+  text-decoration: none;
+}
+
+h1{
+  color:#142e5d;
+  font-size: 39px;
+  line-height: 1.8;
+  font-family: Raleway;
+  letter-spacing: 2px;
+}
+
+h2{
+  color:#1c5d86;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: -2;
+}
+
+p{
+  letter-spacing: -1px;
+  font-size: 21.5px;
+  line-height: -1;
+}
+
+a{
+  color:#618451;
+  font-size: 21.5px;
+  text-decoration: none;
+}
+
+div{
+  padding: 30px;
+  border-radius: 15px;
+  margin: 30px;
+  text-align: center;
+}
+
+/* Custom design with class */
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 180px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.btn-green {
+  background-color: #618451;
+  color: white;
+  padding: 15px 20px;
+}
+
+.btn-green:hover {
+  background-color:#142e5d;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  display: inline;
+  padding: 20px;
+  font-size: 48px;
+  color: darkgrey;
+}
+
+.list-inline i:hover{
+  background-color:#142e5d;
+  color: white;
+}
+
+#introduction p {
+  margin-bottom: 42px;
+}
